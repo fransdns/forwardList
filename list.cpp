@@ -126,7 +126,7 @@ int List::operator[](int index) {
 }
 
 bool List::empty() {
-
+    return head == nullptr;
 }
 
 int List::size() {
@@ -140,7 +140,13 @@ int List::size() {
 }
 
 void List::clear() {
-
+    Node* current = head;
+    while (current != nullptr) {
+        Node* temp = current;
+        current = current->next;
+        delete temp;
+    }
+    head = nullptr;
 }
 
 void List::sort() {
@@ -171,5 +177,16 @@ void List::sort() {
 }
 
 void List::reverse() {
+    Node* prev = nullptr;
+    Node* current = head;
+    Node* next = nullptr;
 
+    while (current != nullptr) {
+        next = current->next;
+        current->next = prev;
+        prev = current;
+        current = next;
+    }
+
+    head = prev;
 }
