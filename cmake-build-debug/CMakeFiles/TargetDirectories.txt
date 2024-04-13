@@ -1,15 +1,4 @@
 F:/utec-cs-aed/forwardList/cmake-build-debug/CMakeFiles/main.dir
-F:/utec-cs-aed/forwardList/cmake-build-debug/CMakeFiles/Front.dir
-F:/utec-cs-aed/forwardList/cmake-build-debug/CMakeFiles/Back.dir
-F:/utec-cs-aed/forwardList/cmake-build-debug/CMakeFiles/PushFront.dir
-F:/utec-cs-aed/forwardList/cmake-build-debug/CMakeFiles/PushBack.dir
-F:/utec-cs-aed/forwardList/cmake-build-debug/CMakeFiles/PopFront.dir
-F:/utec-cs-aed/forwardList/cmake-build-debug/CMakeFiles/PopBack.dir
-F:/utec-cs-aed/forwardList/cmake-build-debug/CMakeFiles/Operator.dir
-F:/utec-cs-aed/forwardList/cmake-build-debug/CMakeFiles/Empty.dir
-F:/utec-cs-aed/forwardList/cmake-build-debug/CMakeFiles/Size.dir
-F:/utec-cs-aed/forwardList/cmake-build-debug/CMakeFiles/Clear.dir
-F:/utec-cs-aed/forwardList/cmake-build-debug/CMakeFiles/Sort.dir
-F:/utec-cs-aed/forwardList/cmake-build-debug/CMakeFiles/Reverse.dir
+F:/utec-cs-aed/forwardList/cmake-build-debug/CMakeFiles/list.dir
 F:/utec-cs-aed/forwardList/cmake-build-debug/CMakeFiles/edit_cache.dir
 F:/utec-cs-aed/forwardList/cmake-build-debug/CMakeFiles/rebuild_cache.dir

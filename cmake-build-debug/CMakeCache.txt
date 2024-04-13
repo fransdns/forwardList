@@ -121,7 +121,7 @@ CMAKE_FIND_PACKAGE_REDIRECTS_DIR:STATIC=F:/utec-cs-aed/forwardList/cmake-build-d
 CMAKE_GNUtoMS:BOOL=OFF
 
 //Install path prefix, prepended onto install directories.
-CMAKE_INSTALL_PREFIX:PATH=C:/Program Files (x86)/forwardList
+CMAKE_INSTALL_PREFIX:PATH=C:/Program Files (x86)/forwardList_priv
 
 //Path to a program.
 CMAKE_LINKER:FILEPATH=C:/Program Files/JetBrains/CLion 2024.1/bin/mingw/bin/ld.exe
@@ -165,7 +165,7 @@ CMAKE_PROJECT_DESCRIPTION:STATIC=
 CMAKE_PROJECT_HOMEPAGE_URL:STATIC=
 
 //Value Computed by CMake
-CMAKE_PROJECT_NAME:STATIC=forwardList
+CMAKE_PROJECT_NAME:STATIC=forwardList_priv
 
 //Path to a program.
 CMAKE_RANLIB:FILEPATH=C:/Program Files/JetBrains/CLion 2024.1/bin/mingw/bin/ranlib.exe
@@ -251,13 +251,13 @@ CMAKE_TAPI:FILEPATH=CMAKE_TAPI-NOTFOUND
 CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
 
 //Value Computed by CMake
-forwardList_BINARY_DIR:STATIC=F:/utec-cs-aed/forwardList/cmake-build-debug
+forwardList_priv_BINARY_DIR:STATIC=F:/utec-cs-aed/forwardList/cmake-build-debug
 
 //Value Computed by CMake
-forwardList_IS_TOP_LEVEL:STATIC=ON
+forwardList_priv_IS_TOP_LEVEL:STATIC=ON
 
 //Value Computed by CMake
-forwardList_SOURCE_DIR:STATIC=F:/utec-cs-aed/forwardList
+forwardList_priv_SOURCE_DIR:STATIC=F:/utec-cs-aed/forwardList
 
 
 ########################

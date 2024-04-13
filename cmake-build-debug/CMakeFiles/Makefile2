@@ -63,18 +63,7 @@ CMAKE_BINARY_DIR = F:\utec-cs-aed\forwardList\cmake-build-debug
 
 # The main recursive "all" target.
 all: CMakeFiles/main.dir/all
-all: CMakeFiles/Front.dir/all
-all: CMakeFiles/Back.dir/all
-all: CMakeFiles/PushFront.dir/all
-all: CMakeFiles/PushBack.dir/all
-all: CMakeFiles/PopFront.dir/all
-all: CMakeFiles/PopBack.dir/all
-all: CMakeFiles/Operator.dir/all
-all: CMakeFiles/Empty.dir/all
-all: CMakeFiles/Size.dir/all
-all: CMakeFiles/Clear.dir/all
-all: CMakeFiles/Sort.dir/all
-all: CMakeFiles/Reverse.dir/all
+all: CMakeFiles/list.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -83,18 +72,7 @@ preinstall:
 
 # The main recursive "clean" target.
 clean: CMakeFiles/main.dir/clean
-clean: CMakeFiles/Front.dir/clean
-clean: CMakeFiles/Back.dir/clean
-clean: CMakeFiles/PushFront.dir/clean
-clean: CMakeFiles/PushBack.dir/clean
-clean: CMakeFiles/PopFront.dir/clean
-clean: CMakeFiles/PopBack.dir/clean
-clean: CMakeFiles/Operator.dir/clean
-clean: CMakeFiles/Empty.dir/clean
-clean: CMakeFiles/Size.dir/clean
-clean: CMakeFiles/Clear.dir/clean
-clean: CMakeFiles/Sort.dir/clean
-clean: CMakeFiles/Reverse.dir/clean
+clean: CMakeFiles/list.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -104,7 +82,7 @@ clean: CMakeFiles/Reverse.dir/clean
 CMakeFiles/main.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=F:\utec-cs-aed\forwardList\cmake-build-debug\CMakeFiles --progress-num=25,26 "Built target main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=F:\utec-cs-aed\forwardList\cmake-build-debug\CMakeFiles --progress-num=3,4 "Built target main"
 .PHONY : CMakeFiles/main.dir/all
 
 # Build rule for subdir invocation for target.
@@ -124,316 +102,30 @@ CMakeFiles/main.dir/clean:
 .PHONY : CMakeFiles/main.dir/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/Front.dir
+# Target rules for target CMakeFiles/list.dir
 
 # All Build rule for target.
-CMakeFiles/Front.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Front.dir\build.make CMakeFiles/Front.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Front.dir\build.make CMakeFiles/Front.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=F:\utec-cs-aed\forwardList\cmake-build-debug\CMakeFiles --progress-num=7,8 "Built target Front"
-.PHONY : CMakeFiles/Front.dir/all
+CMakeFiles/list.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\list.dir\build.make CMakeFiles/list.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\list.dir\build.make CMakeFiles/list.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=F:\utec-cs-aed\forwardList\cmake-build-debug\CMakeFiles --progress-num=1,2 "Built target list"
+.PHONY : CMakeFiles/list.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/Front.dir/rule: cmake_check_build_system
+CMakeFiles/list.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start F:\utec-cs-aed\forwardList\cmake-build-debug\CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/Front.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/list.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start F:\utec-cs-aed\forwardList\cmake-build-debug\CMakeFiles 0
-.PHONY : CMakeFiles/Front.dir/rule
+.PHONY : CMakeFiles/list.dir/rule
 
 # Convenience name for target.
-Front: CMakeFiles/Front.dir/rule
-.PHONY : Front
+list: CMakeFiles/list.dir/rule
+.PHONY : list
 
 # clean rule for target.
-CMakeFiles/Front.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Front.dir\build.make CMakeFiles/Front.dir/clean
-.PHONY : CMakeFiles/Front.dir/clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/Back.dir
-
-# All Build rule for target.
-CMakeFiles/Back.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Back.dir\build.make CMakeFiles/Back.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Back.dir\build.make CMakeFiles/Back.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=F:\utec-cs-aed\forwardList\cmake-build-debug\CMakeFiles --progress-num=1,2 "Built target Back"
-.PHONY : CMakeFiles/Back.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/Back.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start F:\utec-cs-aed\forwardList\cmake-build-debug\CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/Back.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start F:\utec-cs-aed\forwardList\cmake-build-debug\CMakeFiles 0
-.PHONY : CMakeFiles/Back.dir/rule
-
-# Convenience name for target.
-Back: CMakeFiles/Back.dir/rule
-.PHONY : Back
-
-# clean rule for target.
-CMakeFiles/Back.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Back.dir\build.make CMakeFiles/Back.dir/clean
-.PHONY : CMakeFiles/Back.dir/clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/PushFront.dir
-
-# All Build rule for target.
-CMakeFiles/PushFront.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\PushFront.dir\build.make CMakeFiles/PushFront.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\PushFront.dir\build.make CMakeFiles/PushFront.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=F:\utec-cs-aed\forwardList\cmake-build-debug\CMakeFiles --progress-num=17,18 "Built target PushFront"
-.PHONY : CMakeFiles/PushFront.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/PushFront.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start F:\utec-cs-aed\forwardList\cmake-build-debug\CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/PushFront.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start F:\utec-cs-aed\forwardList\cmake-build-debug\CMakeFiles 0
-.PHONY : CMakeFiles/PushFront.dir/rule
-
-# Convenience name for target.
-PushFront: CMakeFiles/PushFront.dir/rule
-.PHONY : PushFront
-
-# clean rule for target.
-CMakeFiles/PushFront.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\PushFront.dir\build.make CMakeFiles/PushFront.dir/clean
-.PHONY : CMakeFiles/PushFront.dir/clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/PushBack.dir
-
-# All Build rule for target.
-CMakeFiles/PushBack.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\PushBack.dir\build.make CMakeFiles/PushBack.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\PushBack.dir\build.make CMakeFiles/PushBack.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=F:\utec-cs-aed\forwardList\cmake-build-debug\CMakeFiles --progress-num=15,16 "Built target PushBack"
-.PHONY : CMakeFiles/PushBack.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/PushBack.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start F:\utec-cs-aed\forwardList\cmake-build-debug\CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/PushBack.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start F:\utec-cs-aed\forwardList\cmake-build-debug\CMakeFiles 0
-.PHONY : CMakeFiles/PushBack.dir/rule
-
-# Convenience name for target.
-PushBack: CMakeFiles/PushBack.dir/rule
-.PHONY : PushBack
-
-# clean rule for target.
-CMakeFiles/PushBack.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\PushBack.dir\build.make CMakeFiles/PushBack.dir/clean
-.PHONY : CMakeFiles/PushBack.dir/clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/PopFront.dir
-
-# All Build rule for target.
-CMakeFiles/PopFront.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\PopFront.dir\build.make CMakeFiles/PopFront.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\PopFront.dir\build.make CMakeFiles/PopFront.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=F:\utec-cs-aed\forwardList\cmake-build-debug\CMakeFiles --progress-num=13,14 "Built target PopFront"
-.PHONY : CMakeFiles/PopFront.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/PopFront.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start F:\utec-cs-aed\forwardList\cmake-build-debug\CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/PopFront.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start F:\utec-cs-aed\forwardList\cmake-build-debug\CMakeFiles 0
-.PHONY : CMakeFiles/PopFront.dir/rule
-
-# Convenience name for target.
-PopFront: CMakeFiles/PopFront.dir/rule
-.PHONY : PopFront
-
-# clean rule for target.
-CMakeFiles/PopFront.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\PopFront.dir\build.make CMakeFiles/PopFront.dir/clean
-.PHONY : CMakeFiles/PopFront.dir/clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/PopBack.dir
-
-# All Build rule for target.
-CMakeFiles/PopBack.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\PopBack.dir\build.make CMakeFiles/PopBack.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\PopBack.dir\build.make CMakeFiles/PopBack.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=F:\utec-cs-aed\forwardList\cmake-build-debug\CMakeFiles --progress-num=11,12 "Built target PopBack"
-.PHONY : CMakeFiles/PopBack.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/PopBack.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start F:\utec-cs-aed\forwardList\cmake-build-debug\CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/PopBack.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start F:\utec-cs-aed\forwardList\cmake-build-debug\CMakeFiles 0
-.PHONY : CMakeFiles/PopBack.dir/rule
-
-# Convenience name for target.
-PopBack: CMakeFiles/PopBack.dir/rule
-.PHONY : PopBack
-
-# clean rule for target.
-CMakeFiles/PopBack.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\PopBack.dir\build.make CMakeFiles/PopBack.dir/clean
-.PHONY : CMakeFiles/PopBack.dir/clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/Operator.dir
-
-# All Build rule for target.
-CMakeFiles/Operator.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Operator.dir\build.make CMakeFiles/Operator.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Operator.dir\build.make CMakeFiles/Operator.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=F:\utec-cs-aed\forwardList\cmake-build-debug\CMakeFiles --progress-num=9,10 "Built target Operator"
-.PHONY : CMakeFiles/Operator.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/Operator.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start F:\utec-cs-aed\forwardList\cmake-build-debug\CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/Operator.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start F:\utec-cs-aed\forwardList\cmake-build-debug\CMakeFiles 0
-.PHONY : CMakeFiles/Operator.dir/rule
-
-# Convenience name for target.
-Operator: CMakeFiles/Operator.dir/rule
-.PHONY : Operator
-
-# clean rule for target.
-CMakeFiles/Operator.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Operator.dir\build.make CMakeFiles/Operator.dir/clean
-.PHONY : CMakeFiles/Operator.dir/clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/Empty.dir
-
-# All Build rule for target.
-CMakeFiles/Empty.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Empty.dir\build.make CMakeFiles/Empty.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Empty.dir\build.make CMakeFiles/Empty.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=F:\utec-cs-aed\forwardList\cmake-build-debug\CMakeFiles --progress-num=5,6 "Built target Empty"
-.PHONY : CMakeFiles/Empty.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/Empty.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start F:\utec-cs-aed\forwardList\cmake-build-debug\CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/Empty.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start F:\utec-cs-aed\forwardList\cmake-build-debug\CMakeFiles 0
-.PHONY : CMakeFiles/Empty.dir/rule
-
-# Convenience name for target.
-Empty: CMakeFiles/Empty.dir/rule
-.PHONY : Empty
-
-# clean rule for target.
-CMakeFiles/Empty.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Empty.dir\build.make CMakeFiles/Empty.dir/clean
-.PHONY : CMakeFiles/Empty.dir/clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/Size.dir
-
-# All Build rule for target.
-CMakeFiles/Size.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Size.dir\build.make CMakeFiles/Size.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Size.dir\build.make CMakeFiles/Size.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=F:\utec-cs-aed\forwardList\cmake-build-debug\CMakeFiles --progress-num=21,22 "Built target Size"
-.PHONY : CMakeFiles/Size.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/Size.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start F:\utec-cs-aed\forwardList\cmake-build-debug\CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/Size.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start F:\utec-cs-aed\forwardList\cmake-build-debug\CMakeFiles 0
-.PHONY : CMakeFiles/Size.dir/rule
-
-# Convenience name for target.
-Size: CMakeFiles/Size.dir/rule
-.PHONY : Size
-
-# clean rule for target.
-CMakeFiles/Size.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Size.dir\build.make CMakeFiles/Size.dir/clean
-.PHONY : CMakeFiles/Size.dir/clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/Clear.dir
-
-# All Build rule for target.
-CMakeFiles/Clear.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Clear.dir\build.make CMakeFiles/Clear.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Clear.dir\build.make CMakeFiles/Clear.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=F:\utec-cs-aed\forwardList\cmake-build-debug\CMakeFiles --progress-num=3,4 "Built target Clear"
-.PHONY : CMakeFiles/Clear.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/Clear.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start F:\utec-cs-aed\forwardList\cmake-build-debug\CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/Clear.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start F:\utec-cs-aed\forwardList\cmake-build-debug\CMakeFiles 0
-.PHONY : CMakeFiles/Clear.dir/rule
-
-# Convenience name for target.
-Clear: CMakeFiles/Clear.dir/rule
-.PHONY : Clear
-
-# clean rule for target.
-CMakeFiles/Clear.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Clear.dir\build.make CMakeFiles/Clear.dir/clean
-.PHONY : CMakeFiles/Clear.dir/clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/Sort.dir
-
-# All Build rule for target.
-CMakeFiles/Sort.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Sort.dir\build.make CMakeFiles/Sort.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Sort.dir\build.make CMakeFiles/Sort.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=F:\utec-cs-aed\forwardList\cmake-build-debug\CMakeFiles --progress-num=23,24 "Built target Sort"
-.PHONY : CMakeFiles/Sort.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/Sort.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start F:\utec-cs-aed\forwardList\cmake-build-debug\CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/Sort.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start F:\utec-cs-aed\forwardList\cmake-build-debug\CMakeFiles 0
-.PHONY : CMakeFiles/Sort.dir/rule
-
-# Convenience name for target.
-Sort: CMakeFiles/Sort.dir/rule
-.PHONY : Sort
-
-# clean rule for target.
-CMakeFiles/Sort.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Sort.dir\build.make CMakeFiles/Sort.dir/clean
-.PHONY : CMakeFiles/Sort.dir/clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/Reverse.dir
-
-# All Build rule for target.
-CMakeFiles/Reverse.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Reverse.dir\build.make CMakeFiles/Reverse.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Reverse.dir\build.make CMakeFiles/Reverse.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=F:\utec-cs-aed\forwardList\cmake-build-debug\CMakeFiles --progress-num=19,20 "Built target Reverse"
-.PHONY : CMakeFiles/Reverse.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/Reverse.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start F:\utec-cs-aed\forwardList\cmake-build-debug\CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/Reverse.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start F:\utec-cs-aed\forwardList\cmake-build-debug\CMakeFiles 0
-.PHONY : CMakeFiles/Reverse.dir/rule
-
-# Convenience name for target.
-Reverse: CMakeFiles/Reverse.dir/rule
-.PHONY : Reverse
-
-# clean rule for target.
-CMakeFiles/Reverse.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Reverse.dir\build.make CMakeFiles/Reverse.dir/clean
-.PHONY : CMakeFiles/Reverse.dir/clean
+CMakeFiles/list.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\list.dir\build.make CMakeFiles/list.dir/clean
+.PHONY : CMakeFiles/list.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

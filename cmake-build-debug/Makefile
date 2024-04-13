@@ -129,448 +129,41 @@ main/fast:
 .PHONY : main/fast
 
 #=============================================================================
-# Target rules for targets named Front
+# Target rules for targets named list
 
 # Build rule for target.
-Front: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Front
-.PHONY : Front
+list: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 list
+.PHONY : list
 
 # fast build rule for target.
-Front/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Front.dir\build.make CMakeFiles/Front.dir/build
-.PHONY : Front/fast
+list/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\list.dir\build.make CMakeFiles/list.dir/build
+.PHONY : list/fast
 
-#=============================================================================
-# Target rules for targets named Back
-
-# Build rule for target.
-Back: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Back
-.PHONY : Back
-
-# fast build rule for target.
-Back/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Back.dir\build.make CMakeFiles/Back.dir/build
-.PHONY : Back/fast
-
-#=============================================================================
-# Target rules for targets named PushFront
-
-# Build rule for target.
-PushFront: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 PushFront
-.PHONY : PushFront
-
-# fast build rule for target.
-PushFront/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\PushFront.dir\build.make CMakeFiles/PushFront.dir/build
-.PHONY : PushFront/fast
-
-#=============================================================================
-# Target rules for targets named PushBack
-
-# Build rule for target.
-PushBack: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 PushBack
-.PHONY : PushBack
-
-# fast build rule for target.
-PushBack/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\PushBack.dir\build.make CMakeFiles/PushBack.dir/build
-.PHONY : PushBack/fast
-
-#=============================================================================
-# Target rules for targets named PopFront
-
-# Build rule for target.
-PopFront: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 PopFront
-.PHONY : PopFront
-
-# fast build rule for target.
-PopFront/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\PopFront.dir\build.make CMakeFiles/PopFront.dir/build
-.PHONY : PopFront/fast
-
-#=============================================================================
-# Target rules for targets named PopBack
-
-# Build rule for target.
-PopBack: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 PopBack
-.PHONY : PopBack
-
-# fast build rule for target.
-PopBack/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\PopBack.dir\build.make CMakeFiles/PopBack.dir/build
-.PHONY : PopBack/fast
-
-#=============================================================================
-# Target rules for targets named Operator
-
-# Build rule for target.
-Operator: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Operator
-.PHONY : Operator
-
-# fast build rule for target.
-Operator/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Operator.dir\build.make CMakeFiles/Operator.dir/build
-.PHONY : Operator/fast
-
-#=============================================================================
-# Target rules for targets named Empty
-
-# Build rule for target.
-Empty: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Empty
-.PHONY : Empty
-
-# fast build rule for target.
-Empty/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Empty.dir\build.make CMakeFiles/Empty.dir/build
-.PHONY : Empty/fast
-
-#=============================================================================
-# Target rules for targets named Size
-
-# Build rule for target.
-Size: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Size
-.PHONY : Size
-
-# fast build rule for target.
-Size/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Size.dir\build.make CMakeFiles/Size.dir/build
-.PHONY : Size/fast
-
-#=============================================================================
-# Target rules for targets named Clear
-
-# Build rule for target.
-Clear: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Clear
-.PHONY : Clear
-
-# fast build rule for target.
-Clear/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Clear.dir\build.make CMakeFiles/Clear.dir/build
-.PHONY : Clear/fast
-
-#=============================================================================
-# Target rules for targets named Sort
-
-# Build rule for target.
-Sort: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Sort
-.PHONY : Sort
-
-# fast build rule for target.
-Sort/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Sort.dir\build.make CMakeFiles/Sort.dir/build
-.PHONY : Sort/fast
-
-#=============================================================================
-# Target rules for targets named Reverse
-
-# Build rule for target.
-Reverse: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Reverse
-.PHONY : Reverse
-
-# fast build rule for target.
-Reverse/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Reverse.dir\build.make CMakeFiles/Reverse.dir/build
-.PHONY : Reverse/fast
-
-Back.obj: Back.cpp.obj
-.PHONY : Back.obj
+list.obj: list.cpp.obj
+.PHONY : list.obj
 
 # target to build an object file
-Back.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Back.dir\build.make CMakeFiles/Back.dir/Back.cpp.obj
-.PHONY : Back.cpp.obj
+list.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\list.dir\build.make CMakeFiles/list.dir/list.cpp.obj
+.PHONY : list.cpp.obj
 
-Back.i: Back.cpp.i
-.PHONY : Back.i
-
-# target to preprocess a source file
-Back.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Back.dir\build.make CMakeFiles/Back.dir/Back.cpp.i
-.PHONY : Back.cpp.i
-
-Back.s: Back.cpp.s
-.PHONY : Back.s
-
-# target to generate assembly for a file
-Back.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Back.dir\build.make CMakeFiles/Back.dir/Back.cpp.s
-.PHONY : Back.cpp.s
-
-Clear.obj: Clear.cpp.obj
-.PHONY : Clear.obj
-
-# target to build an object file
-Clear.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Clear.dir\build.make CMakeFiles/Clear.dir/Clear.cpp.obj
-.PHONY : Clear.cpp.obj
-
-Clear.i: Clear.cpp.i
-.PHONY : Clear.i
+list.i: list.cpp.i
+.PHONY : list.i
 
 # target to preprocess a source file
-Clear.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Clear.dir\build.make CMakeFiles/Clear.dir/Clear.cpp.i
-.PHONY : Clear.cpp.i
+list.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\list.dir\build.make CMakeFiles/list.dir/list.cpp.i
+.PHONY : list.cpp.i
 
-Clear.s: Clear.cpp.s
-.PHONY : Clear.s
-
-# target to generate assembly for a file
-Clear.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Clear.dir\build.make CMakeFiles/Clear.dir/Clear.cpp.s
-.PHONY : Clear.cpp.s
-
-Empty.obj: Empty.cpp.obj
-.PHONY : Empty.obj
-
-# target to build an object file
-Empty.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Empty.dir\build.make CMakeFiles/Empty.dir/Empty.cpp.obj
-.PHONY : Empty.cpp.obj
-
-Empty.i: Empty.cpp.i
-.PHONY : Empty.i
-
-# target to preprocess a source file
-Empty.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Empty.dir\build.make CMakeFiles/Empty.dir/Empty.cpp.i
-.PHONY : Empty.cpp.i
-
-Empty.s: Empty.cpp.s
-.PHONY : Empty.s
+list.s: list.cpp.s
+.PHONY : list.s
 
 # target to generate assembly for a file
-Empty.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Empty.dir\build.make CMakeFiles/Empty.dir/Empty.cpp.s
-.PHONY : Empty.cpp.s
-
-Front.obj: Front.cpp.obj
-.PHONY : Front.obj
-
-# target to build an object file
-Front.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Front.dir\build.make CMakeFiles/Front.dir/Front.cpp.obj
-.PHONY : Front.cpp.obj
-
-Front.i: Front.cpp.i
-.PHONY : Front.i
-
-# target to preprocess a source file
-Front.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Front.dir\build.make CMakeFiles/Front.dir/Front.cpp.i
-.PHONY : Front.cpp.i
-
-Front.s: Front.cpp.s
-.PHONY : Front.s
-
-# target to generate assembly for a file
-Front.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Front.dir\build.make CMakeFiles/Front.dir/Front.cpp.s
-.PHONY : Front.cpp.s
-
-Operator.obj: Operator.cpp.obj
-.PHONY : Operator.obj
-
-# target to build an object file
-Operator.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Operator.dir\build.make CMakeFiles/Operator.dir/Operator.cpp.obj
-.PHONY : Operator.cpp.obj
-
-Operator.i: Operator.cpp.i
-.PHONY : Operator.i
-
-# target to preprocess a source file
-Operator.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Operator.dir\build.make CMakeFiles/Operator.dir/Operator.cpp.i
-.PHONY : Operator.cpp.i
-
-Operator.s: Operator.cpp.s
-.PHONY : Operator.s
-
-# target to generate assembly for a file
-Operator.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Operator.dir\build.make CMakeFiles/Operator.dir/Operator.cpp.s
-.PHONY : Operator.cpp.s
-
-PopBack.obj: PopBack.cpp.obj
-.PHONY : PopBack.obj
-
-# target to build an object file
-PopBack.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\PopBack.dir\build.make CMakeFiles/PopBack.dir/PopBack.cpp.obj
-.PHONY : PopBack.cpp.obj
-
-PopBack.i: PopBack.cpp.i
-.PHONY : PopBack.i
-
-# target to preprocess a source file
-PopBack.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\PopBack.dir\build.make CMakeFiles/PopBack.dir/PopBack.cpp.i
-.PHONY : PopBack.cpp.i
-
-PopBack.s: PopBack.cpp.s
-.PHONY : PopBack.s
-
-# target to generate assembly for a file
-PopBack.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\PopBack.dir\build.make CMakeFiles/PopBack.dir/PopBack.cpp.s
-.PHONY : PopBack.cpp.s
-
-PopFront.obj: PopFront.cpp.obj
-.PHONY : PopFront.obj
-
-# target to build an object file
-PopFront.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\PopFront.dir\build.make CMakeFiles/PopFront.dir/PopFront.cpp.obj
-.PHONY : PopFront.cpp.obj
-
-PopFront.i: PopFront.cpp.i
-.PHONY : PopFront.i
-
-# target to preprocess a source file
-PopFront.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\PopFront.dir\build.make CMakeFiles/PopFront.dir/PopFront.cpp.i
-.PHONY : PopFront.cpp.i
-
-PopFront.s: PopFront.cpp.s
-.PHONY : PopFront.s
-
-# target to generate assembly for a file
-PopFront.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\PopFront.dir\build.make CMakeFiles/PopFront.dir/PopFront.cpp.s
-.PHONY : PopFront.cpp.s
-
-PushBack.obj: PushBack.cpp.obj
-.PHONY : PushBack.obj
-
-# target to build an object file
-PushBack.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\PushBack.dir\build.make CMakeFiles/PushBack.dir/PushBack.cpp.obj
-.PHONY : PushBack.cpp.obj
-
-PushBack.i: PushBack.cpp.i
-.PHONY : PushBack.i
-
-# target to preprocess a source file
-PushBack.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\PushBack.dir\build.make CMakeFiles/PushBack.dir/PushBack.cpp.i
-.PHONY : PushBack.cpp.i
-
-PushBack.s: PushBack.cpp.s
-.PHONY : PushBack.s
-
-# target to generate assembly for a file
-PushBack.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\PushBack.dir\build.make CMakeFiles/PushBack.dir/PushBack.cpp.s
-.PHONY : PushBack.cpp.s
-
-PushFront.obj: PushFront.cpp.obj
-.PHONY : PushFront.obj
-
-# target to build an object file
-PushFront.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\PushFront.dir\build.make CMakeFiles/PushFront.dir/PushFront.cpp.obj
-.PHONY : PushFront.cpp.obj
-
-PushFront.i: PushFront.cpp.i
-.PHONY : PushFront.i
-
-# target to preprocess a source file
-PushFront.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\PushFront.dir\build.make CMakeFiles/PushFront.dir/PushFront.cpp.i
-.PHONY : PushFront.cpp.i
-
-PushFront.s: PushFront.cpp.s
-.PHONY : PushFront.s
-
-# target to generate assembly for a file
-PushFront.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\PushFront.dir\build.make CMakeFiles/PushFront.dir/PushFront.cpp.s
-.PHONY : PushFront.cpp.s
-
-Reverse.obj: Reverse.cpp.obj
-.PHONY : Reverse.obj
-
-# target to build an object file
-Reverse.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Reverse.dir\build.make CMakeFiles/Reverse.dir/Reverse.cpp.obj
-.PHONY : Reverse.cpp.obj
-
-Reverse.i: Reverse.cpp.i
-.PHONY : Reverse.i
-
-# target to preprocess a source file
-Reverse.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Reverse.dir\build.make CMakeFiles/Reverse.dir/Reverse.cpp.i
-.PHONY : Reverse.cpp.i
-
-Reverse.s: Reverse.cpp.s
-.PHONY : Reverse.s
-
-# target to generate assembly for a file
-Reverse.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Reverse.dir\build.make CMakeFiles/Reverse.dir/Reverse.cpp.s
-.PHONY : Reverse.cpp.s
-
-Size.obj: Size.cpp.obj
-.PHONY : Size.obj
-
-# target to build an object file
-Size.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Size.dir\build.make CMakeFiles/Size.dir/Size.cpp.obj
-.PHONY : Size.cpp.obj
-
-Size.i: Size.cpp.i
-.PHONY : Size.i
-
-# target to preprocess a source file
-Size.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Size.dir\build.make CMakeFiles/Size.dir/Size.cpp.i
-.PHONY : Size.cpp.i
-
-Size.s: Size.cpp.s
-.PHONY : Size.s
-
-# target to generate assembly for a file
-Size.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Size.dir\build.make CMakeFiles/Size.dir/Size.cpp.s
-.PHONY : Size.cpp.s
-
-Sort.obj: Sort.cpp.obj
-.PHONY : Sort.obj
-
-# target to build an object file
-Sort.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Sort.dir\build.make CMakeFiles/Sort.dir/Sort.cpp.obj
-.PHONY : Sort.cpp.obj
-
-Sort.i: Sort.cpp.i
-.PHONY : Sort.i
-
-# target to preprocess a source file
-Sort.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Sort.dir\build.make CMakeFiles/Sort.dir/Sort.cpp.i
-.PHONY : Sort.cpp.i
-
-Sort.s: Sort.cpp.s
-.PHONY : Sort.s
-
-# target to generate assembly for a file
-Sort.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Sort.dir\build.make CMakeFiles/Sort.dir/Sort.cpp.s
-.PHONY : Sort.cpp.s
+list.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\list.dir\build.make CMakeFiles/list.dir/list.cpp.s
+.PHONY : list.cpp.s
 
 main.obj: main.cpp.obj
 .PHONY : main.obj
@@ -604,55 +197,11 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... Back
-	@echo ... Clear
-	@echo ... Empty
-	@echo ... Front
-	@echo ... Operator
-	@echo ... PopBack
-	@echo ... PopFront
-	@echo ... PushBack
-	@echo ... PushFront
-	@echo ... Reverse
-	@echo ... Size
-	@echo ... Sort
+	@echo ... list
 	@echo ... main
-	@echo ... Back.obj
-	@echo ... Back.i
-	@echo ... Back.s
-	@echo ... Clear.obj
-	@echo ... Clear.i
-	@echo ... Clear.s
-	@echo ... Empty.obj
-	@echo ... Empty.i
-	@echo ... Empty.s
-	@echo ... Front.obj
-	@echo ... Front.i
-	@echo ... Front.s
-	@echo ... Operator.obj
-	@echo ... Operator.i
-	@echo ... Operator.s
-	@echo ... PopBack.obj
-	@echo ... PopBack.i
-	@echo ... PopBack.s
-	@echo ... PopFront.obj
-	@echo ... PopFront.i
-	@echo ... PopFront.s
-	@echo ... PushBack.obj
-	@echo ... PushBack.i
-	@echo ... PushBack.s
-	@echo ... PushFront.obj
-	@echo ... PushFront.i
-	@echo ... PushFront.s
-	@echo ... Reverse.obj
-	@echo ... Reverse.i
-	@echo ... Reverse.s
-	@echo ... Size.obj
-	@echo ... Size.i
-	@echo ... Size.s
-	@echo ... Sort.obj
-	@echo ... Sort.i
-	@echo ... Sort.s
+	@echo ... list.obj
+	@echo ... list.i
+	@echo ... list.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
